@@ -1,0 +1,69 @@
+Git Cheat Sheet
+
+What is Git?
+Git is the free and open-source distributed version control systems that’s responsible for everything GitHub related that happens locally on your computer.
+
+Version control, also known as source control, is the technique of tracking and managing changes to codes and these are the systems that are software tools that enable software teams to manage modifications to source code as time passes.
+
+Benefits of Using Git :
+History Tracking: Git allows you to track every change made in your project, including: who made the change and when it was made.
+Collaboration: Multiple developers can be able work on the same project at the same time, and Git efficiently manages the merging of changes in code.
+Branching and Merging: Git enables developers to create branches to work on new features or bug fixes and later merge them back into the main codebase.
+Offline Work: Git works offline, which means you can commit changes and work on your project even without an internet connection.
+
+1) Git Installation Commands :
+---------------------------------------
+$ brew install git :- Install Git with Homebrew on Mac OS
+$ sudo port selfupdate :- Install Git with MacPorts on Mac OS
+$ sudo apt-get install git :- Install Command for Linux
+$ git --version :- Shows the current version of your Git
+
+2) Git Configuration & Setup :
+---------------------------------------
+git config --global user.name “Your Name” :- Set your username globally.
+git config --global user.email “youremail@example.com”	:- Set your email globally.
+git config --global color.ui auto --	:- Set to display colored output in the terminal
+git help :- Display the main help documentation, showing a list of commonly used Git commands.
+
+3) Initializing a Repository :
+------------------------------------
+git init :- Initializes a new Git repository in the current directory.
+git init <directory> :- Creates a new Git repository in the specified directory.
+git clone <repository_url> :- this Clones a repository from a remote server to your local machine.
+git clone --branch <branch_name> <repository_url> :- Clones a specific branch from a repository.
+
+4) Basic Git Commands :
+--------------------------------
+git add <file> :- Adds a specific file to the staging area.
+git add . or git add --all :- Adds all modified and new files to the staging area.
+git status :- Shows the current state of your repository, including tracked and untracked files, modified files, and branch information.
+git status --ignored :- Displays ignored files in addition to the regular status output.
+git diff :- Shows the changes between the working directory and the staging area (index).
+git diff <commit1> <commit2> :- Displays the differences between two commits.
+git diff --staged or git diff --cached :- Displays the changes between the staging area (index) and the last commit.
+git diff HEAD :- Display the difference between the current directory and the last commit
+git commit :- Creates a new commit with the changes in the staging area and opens the default text editor for adding a commit message.
+git commit -m “<message>” or git commit –message “<message>” :- Creates a new commit with the changes in the staging area and specifies the commit message inline.
+git commit -a or git commit --all :- Commits all modified and deleted files in the repository without explicitly using git add to stage the changes.
+git notes add :- Creates a new note and associates it with an object (commit, tag, etc.).
+git restore <file> :- Restores the file in the working directory to its state in the last commit.
+git reset <commit> :- Moves the branch pointer to a specified commit, resetting the staging area and the working directory to match the specified commit.
+git reset –soft <commit> :- Moves the branch pointer to a specified commit, preserving the changes in the staging area and the working directory.
+git reset –hard <commit> :- Moves the branch pointer to a specified commit, discarding all changes in the staging area and the working directory, effectively resetting the repository to the specified commit.
+git rm <file> :- Removes a file from both the working directory and the repository, staging the deletion.
+git mv :- Moves or renames a file or directory in your Git repository.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
