@@ -1,14 +1,16 @@
 # full-stack-development
 
-HTML
-CSS
-JavaScript
+HTML,
+CSS,
+JavaScript,
 React
 
-Core Java
+Core Java,
 Advanced Java
 
-Spring Framework
+Spring Framework,
 Spring Boot Framework
 
 MySQL
+
+Git commands
