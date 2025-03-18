@@ -98,7 +98,7 @@ git fetch <remote> :- Retrieves change from the specified remote repository.
 git fetch –prune :-Removes any remote-tracking branches that no longer exist on the remote repository.
 git pull :- Fetches changes from the remote repository and merges them into the current branch.
 git pull <remote> :- Fetches changes from the specified remote repository and merges them into the current branch.
-git pull –rebase :- Fetches changes from the remote repository and rebases the current branch onto the updated branch.
+git pull --rebase :- Fetches changes from the remote repository and rebases the current branch onto the updated branch.
 git push :- Pushes local commits to the remote repository.
 git push <remote> :- Pushes local commits to the specified remote repository.
 git push <remote> <branch> :- Pushes local commits to the specified branch of the remote repository.
