@@ -21,11 +21,11 @@ Why Learn JavaScript?
 Useful extensions : LiveServer, prettier, JavaScript (ES6)
 
 Primitive Data Types : 
-1) String - Sequence of cgaracters. Must be in quotes or backticks
+1) String - Sequence of characters. Must be in quotes or backticks
 2) Numbers - Integers as well as floating-point Numbers
 3) Boolean - Logical entity / true or false
 4) Null - Intentional absence of any object value
-5) Undefined - A varaible tha has not yet been defdined/ assigned
+5) Undefined - A varaible tha has not yet been defined/ assigned
 6) Symbol - Built-in object whose constructor returns a unique Symbol
 7) BigInt - Numbers that are greater than the "Number" type can handle.
 

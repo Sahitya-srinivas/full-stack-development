@@ -1,4 +1,4 @@
-let amount = 'hello';
+let amount = 0;
 
 /* Convert a string to number (results NaN if the string is not a number)
 1) Using parseInt() :
@@ -34,4 +34,4 @@ console.log('hello'/5);
 console.log(Number('Hi'));
 */
 
-console.log(amount, typeof amount);
+//console.log(amount, typeof amount);

@@ -1,5 +1,5 @@
 // String
-const firstName = 'Priya';
+const firstName = `Priya`;
 console.log(firstName, typeof firstName); //returns Priya string
 
 // Number
@@ -16,18 +16,18 @@ console.log(isPass, typeof isPass); //returns true 'boolean'
 const aptNumber = null;
 console.log(aptNumber, typeof aptNumber); // returns null 'object'
 
-//Undefined
+// //Undefined
 let score;
 console.log(score, typeof score); // returns undefined 'undefined'
 
 const text = undefined;
 console.log(undefined, typeof undefined); //returns undefined 'undefined'
 
-//Symbol
+// //Symbol
 const id = Symbol('id');
 console.log(id, typeof id); // returns Symbol(id) 'symbol'
 
-//BigInt
+// //BigInt
 const n = 9878478756n;
 console.log(n, typeof n); // returns 9878478756n 'bigint'
 
@@ -47,6 +47,6 @@ function sayHello() {
     console.log("Hello");
 }
 console.log(sayHello, typeof sayHello); 
-/* returns ƒ sayHello() {
-    console.log("Hello");
-} 'function'  */
+// /* returns ƒ sayHello() {
+//     console.log("Hello");
+// } 'function'  */

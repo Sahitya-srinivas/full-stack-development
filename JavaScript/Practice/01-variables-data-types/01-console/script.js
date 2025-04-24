@@ -1,5 +1,4 @@
 console.log(100);
-
 console.log("Hello World");
 
 console.log(20,"Hello",true);
@@ -17,7 +16,8 @@ console.group('Simple');
 console.log("Hello World");
 console.log(20,"Hello",true);
 console.warn("Warning");
+console.log(5);
 console.groupEnd();
 
-const styles = 'padding:10px;background-color:cyan;color:green;'
+const styles = 'padding:10px;background-color:cyan;color:red;'
 console.log('%cHelloWorld',styles);
