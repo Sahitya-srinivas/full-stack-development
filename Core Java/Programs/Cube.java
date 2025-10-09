@@ -20,24 +20,42 @@
 
 class Cube
 {
-    float num;
-    public Cube(int num)
-    {
-        this.num=num*num*num;
-    }
-    public Cube(char num)
-    {
-        this.num=num*num*num;
-    }
-    void Display()
-    {
-        System.out.println(num);
-    }
-    public static void main(String[] args) 
-    {
-        Cube obj=new Cube(3);
-        Cube obj2 = new Cube('A');
-        obj2.Display();
-        obj.Display();
-    }
+//    float num;
+//    public Cube(int num)
+//    {
+//        this.num=num*num*num;
+//    }
+//    public Cube(char num)
+//    {
+//        this.num=num*num*num;
+//    }
+//    void Display()
+//    {
+//        System.out.println(num);
+//    }
+//    public static void main(String[] args) 
+//    {
+//        Cube obj=new Cube(3);
+//        Cube obj2 = new Cube('A');
+//        obj2.Display();
+//        obj.Display();
+//    }
+	
+	static int rollNo = 10,age = 20;
+	static void display() {
+		System.out.println(rollNo+" and "+age);
+	}
+	public Cube(int rollNo,int age){
+		this.rollNo = rollNo;
+		this.age = age;
+	}
+
+  public static void main(String[] args) 
+  {
+	  display();
+	  Cube c = new Cube(2,3);
+	  c.display();
+	  display();
+  }
+	
 }
