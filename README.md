@@ -1,9 +1,9 @@
 # full-stack-development
 
-HTML,
-CSS,
-JavaScript,
-React
+#HTML
+#CSS
+#JavaScript
+#React
 
 Core Java:
     - JDK, JRE, JVM, ClassLoaders\n
