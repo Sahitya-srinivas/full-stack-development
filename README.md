@@ -6,8 +6,8 @@ JavaScript,
 React
 
 Core Java:
-    - JDK, JRE, JVM, ClassLoaders
-    - Memory Management (Stack, Heap, Meta, StringConstantPool)
+    - JDK, JRE, JVM, ClassLoaders\n
+    - Memory Management (Stack, Heap, Meta, StringConstantPool)\n
     - Variables, Data Types
     - Arrays, String (StringBuffer, StringBuilder)
     - Control Flows
