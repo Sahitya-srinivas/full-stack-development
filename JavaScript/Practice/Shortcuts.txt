@@ -1,0 +1,4 @@
+! -> Boilerplate HTML
+clg -> console.log in script.js
+ce -> console.error in script.js
+ctrl+D -> select the word and can edit all the similar words

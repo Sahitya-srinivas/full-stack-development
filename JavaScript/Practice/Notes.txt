@@ -1,0 +1,43 @@
+What is javaScript?
+-> One of the core technologies of the web, alongside HTML and CSS.
+-> High-level, interpreted programming language that can be used on th client side as well as the server-side with Node.js
+
+What is JavaScript used for?
+-> DOM (Document Object Module) Manipulation
+-> Event Handling
+-> Asynchronous Requests
+-> Animations & Effects
+-> Data Manipulation (Sorting, Filtering, etc)
+-> Storing Data in client or browser (Cookies, LocalStorage, etc)
+-> Single Page Application (SPA) (No page reloading)
+-> Creating APIs & Web Services (Node.js, Deno)
+
+Why Learn JavaScript?
+-> Popularity : Most widely used, many job opportunities
+-> Versatility : Used for many different things, such as dynamic web pages, APIs, mobile and even desktop applications
+-> Relatively easy to Learn
+-> Great community, support, resources and tools
+
+Useful extensions : LiveServer, prettier, JavaScript (ES6)
+
+Primitive Data Types : 
+1) String - Sequence of characters. Must be in quotes or backticks
+2) Numbers - Integers as well as floating-point Numbers
+3) Boolean - Logical entity / true or false
+4) Null - Intentional absence of any object value
+5) Undefined - A varaible tha has not yet been defined/ assigned
+6) Symbol - Built-in object whose constructor returns a unique Symbol
+7) BigInt - Numbers that are greater than the "Number" type can handle.
+
+Reference Types (Objects) :
+-> Reference types or "objects" are a non -primitive value and when assigned to a variable, the variable is given a refernece to that value.
+-> Object literals, arrays and functions are all reference types
+
+Static Typing vs Dynamic Types :
+-> JavaScript is a dynamically-typed language. This means, we do not explicitly define the types of our variables. 
+-> Statically-typed languages such as C, C++ and Java
+-> TypeScript is a superset of JavaScript, which allows static-typing. This can make your code more verbose and less prone to errors.
+
+Data Types :
+1) Primitive Types -> Stored directly in the "stack", where it is accessed from String | Number| Boolean | Null | Undefined | Symbol | BigInt
+2) Reference Types -> Stored in the heap and accessed by reference Arrays | Functions | Objects

@@ -1,0 +1,60 @@
+Python is:
+	- A high-level language, used in web development, data science, automation, AI and more.
+	- Known for its readability, which means code is easier to write, understand and maintain.
+	- Backed by library support, so we don’t have to build everything from scratch, there’s probably a library that already does what we need.
+
+Applications of Python :-
+	1) Web Development :
+		a) Django : Powers the backend of Instagram and Spotify for scalable applications.
+		b) Flask : Supports microservices at Netflix and Airbnb.
+		c) FastAPI : Builds High performance API for Uber and Microsoft.
+		d) SQLAlchemy : Manages databases for Reddit.
+	2) Data Science & Machine Learning :
+		a) Pandas : Analyzes user data at YouTube.
+		b) NumPy : Simulates scientific calculations at NASA.
+		c) Scikit-Learn : Fuels music recommendations at Spotify.
+		d) TensorFlow : Powers AI services like Google Translate.
+	3) Web Scraping :
+		a) BeautifulSoup : Scrapes price data for Amazon and Flipkart.
+		b) Scrapy : collects real estate listings for Zillow.
+		c) Selenium : Extracts data from dynamic websites like Linkedin
+	4) Automation & scripting :
+		a) Selenium : Automates testing processes for Mozilla.
+		b) Requests : Handles API integration for GitHub.
+		c) Celery : Manages background tasks at Instagram.
+	5) Game development : 
+		a) Pygame : Used in popular games like Frets on Fire.
+		b) Arcade : Ideal for educational 2D game projects and tutorials.
+	6) Desktop Applications :
+		a) Tkinter : Tkinter simplifies building GUIs in Python.
+		b) PyQt : Powers professional tools like Dropbox.
+		c) Kivy : Develops interactive, touch-based apps like Bible+ App.
+		d) WxPython : Used for specialized applications like Cura for 3D printing.
+
+Key Features of Python :-
+	- Python’s simple and readable syntax makes it beginner-friendly.
+	- Python runs seamlessly on Windows, macOS and Linux.
+	- Includes libraries for tasks like web development, data analysis and machine learning.
+	- Variable types are determined automatically at runtime, simplifying code writing.
+	- Supports multiple programming paradigms, including object-oriented, functional and procedural programming.
+	- Python is free to use, distribute and modify.
+
+First Program in Python :-
+# This is a comment. It will not be executed.
+print("Hello, World!")
+Output :
+Hello, World!
+
+How does this work:
+	- print() is a built-in Python function that tells the computer to show something on the screen.
+	- The message "Hello, World!" is a string, which means it's just text. In Python, strings are always written inside quotes (either single ' or double ").
+	- Anything after # in a line is a comment. Python ignores comments when running the code, but they help people understand what the code is doing.
+	- Comments are helpful for explaining code, making notes or skipping lines while testing.
+	- We can also write multi-line comments using triple quotes:
+		"""
+		This is a multi-line comment.
+		It can be used to describe larger sections of code.
+		"""
+
+
+
