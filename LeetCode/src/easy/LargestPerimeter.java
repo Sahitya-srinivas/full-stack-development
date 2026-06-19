@@ -14,8 +14,9 @@ public class LargestPerimeter {
 
 	public static void main(String[] args) {
 		LargestPerimeter largestPerimeter = new LargestPerimeter();
-		int[] numbers = { 2, 7, 3, 9, 5 };
+		int[] numbers = { 2, 7, 4, 9, 5 };
 		System.out.println(largestPerimeter.largestPerimeter(numbers));
 
 	}
 }
+
